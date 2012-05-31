@@ -1,5 +1,5 @@
 Name:		trayer
-Version:	1.0
+Version:	1.1
 Release:	1%{?dist}
 Summary:	trayer-srg is a lightweight GTK2-based systray
 
@@ -33,5 +33,5 @@ make PREFIX=$RPM_BUILD_ROOT/usr install
 %{_bindir}/%{name}
 
 %changelog
-* Thu May 31 2012 Bryan Bickford <bryan@unhwildhats.com> 1.0
+* Thu May 31 2012 Bryan Bickford <bryan@unhwildhats.com> 1.1
 - initial build
