@@ -9,7 +9,7 @@ URL:		https://github.com/sargon/trayer-srg/blob/master
 
 # The source for this package was pulled from upstream's git on May 31 2012. 
 # Use the following commands to generate the tarball:
-# git clone https://github.com/sargon/trayer-srg.git && tar -xzf trayer-srg/*
+# git clone https://github.com/sargon/trayer-srg.git && tar -czf trayer-srg/*
 Source:		https://github.com/bryanbickford/trayer/blob/master/%{name}-%{version}.tar.gz
 
 BuildRequires:	gtk2-devel
