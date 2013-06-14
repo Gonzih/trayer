@@ -8,8 +8,8 @@ License:	MIT
 
 # The source for this package was pulled from upstream's git on Jun 14 2013.
 # Use the following commands to generate the tarball:
-# git clone https://github.com/sargon/trayer-srg.git
-# tar -czf trayer-1.1-0.tar.gz trayer-src/*
+# git clone https://github.com/sargon/trayer-srg.git trayer-srg-1.1
+# tar -czf trayer-1.1-0.tar.gz trayer-srg-1.1
 Source:		https://github.com/Gonzih/trayer/blob/master/%{name}-%{version}-0.tar.gz
 
 BuildRequires:	gtk2-devel,libXmu-devel
