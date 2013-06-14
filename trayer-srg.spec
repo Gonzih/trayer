@@ -1,16 +1,16 @@
 Name:		trayer-srg
 Version:	1.1
-Release:	1%{?dist}
+Release:	0%{?dist}
 Summary:	A lightweight GTK2-based systray
 
 Group:		Applications/Productivity
 License:	MIT
 
-# The source for this package was pulled from upstream's git on May 31 2012. 
+# The source for this package was pulled from upstream's git on Jun 14 2013.
 # Use the following commands to generate the tarball:
 # git clone https://github.com/sargon/trayer-srg.git
-# && tar -czf trayer-1.1.tar.gz trayer-1.1/*
-Source:		https://github.com/bryanbickford/trayer/blob/master/%{name}-%{version}-1.tar.gz
+# tar -czf trayer-1.1-0.tar.gz trayer-src/*
+Source:		https://github.com/Gonzih/trayer/blob/master/%{name}-%{version}-0.tar.gz
 
 BuildRequires:	gtk2-devel,libXmu-devel
 
@@ -31,7 +31,5 @@ make PREFIX=$RPM_BUILD_ROOT/usr install
 %{_bindir}/trayer
 
 %changelog
-* Mon Jul 09 2012 Bryan Bickford <bryan@unhwildhats.com> 1.1-1
-- rpm bug fixes
-* Thu May 31 2012 Bryan Bickford <bryan@unhwildhats.com> 1.1-0
+* Fri Jun 14 2013 Max Gonzih <gonzih@gmail.com> 1.1-0
 - initial build
